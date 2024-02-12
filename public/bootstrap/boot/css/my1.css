@@ -1,0 +1,60 @@
+form{
+    background-color: #A5D1E1;
+    padding: 20px;
+}
+h1{
+    background-color: #0D5C75;
+    color: WHITE;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.p50{
+    padding: 50px;
+}
+.flex-container{
+      background-color: rgb(160, 95, 127);
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      align-content: center;
+}
+.flex-container> div{
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    
+}
+.flexbox{
+    display: flex;
+    padding: 20px;
+
+
+}
+.flexbox img{
+    height: 200px;
+    width: 200px;
+ 
+}
+.image{
+    justify-content: flex-end;
+}
+input{
+    padding: 20px;
+    width: 550px;
+    border-radius: 20px;
+}
+.bg{
+    border: 3px solid red;
+}
+.bg2{
+    padding: 15px;
+    border: 3px solid red;
+    border-radius: 15px;
+}
+td{
+    background-color: #0D5C75;
+}

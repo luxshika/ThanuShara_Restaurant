@@ -1,0 +1,111 @@
+a{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.title-m{
+  font-size: 35px;
+  color: white;
+  text-transform: capitalize;
+  font-weight: bold;
+  padding: 5px;
+  word-spacing: 0px;
+
+}
+.navbar a{
+  text-decoration: none;
+  color:black;
+}
+.navbar a:hover{
+  text-decoration: none;
+  color: green;
+}
+.login-div{
+  display: flex;
+justify-content: flex-end;
+margin: 0px;
+padding: 0px;
+
+
+
+}
+.navbar{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+.logo{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.login-div{
+  justify-content: flex-end;
+}
+.logout-button
+{
+  border: none;
+  padding: 20px;
+  background-color: gray;
+  border-radius: 5px;
+}
+.logout-button a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+.logout-button:hover{
+  background-color: green;
+  
+}
+.logout-button a:hover{
+  color: white;
+}
+.display{
+  margin: 1rem;
+  background-image: url('../images/slider-image2.jpg');
+  height: 350px;
+  padding-top: 2px;
+  margin-top: -40px;
+
+}
+.heading{
+ padding-top: 50px;
+ color: white;
+ letter-spacing: 1px;
+ padding-left: 15px;
+}
+.container{
+  margin-top: 10px;
+  box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 50px;
+
+}
+.description{
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--green);
+  letter-spacing: 2px;
+  font-size: 14px;
+}
+img{
+  width: 400px;
+  height: 400px;
+}
+.disply4{
+   display: flex;
+   justify-content: space-between;
+}
+
+.time-container{
+  width: 400px;
+  height: 200px;
+}
